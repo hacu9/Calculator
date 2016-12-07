@@ -1,0 +1,73 @@
+body{
+  margin-top:10%;
+   margin-left:15%;
+  background-color:khaki;
+  font-family:'Trebuchet MS', sans-serif;
+   
+}
+.input{
+  padding-top:10px;
+  padding-right:6px;
+  text-align:right;
+  color:black;
+  background:lightgrey;
+  width:200px;
+  margin-left:-15px;
+  margin-bottom:35px;
+  border-radius:9px;
+}
+.btn{
+  margin:0 auto;
+  
+  width:51px;
+  border-radius:9px;
+  box-shadow: 0 2px black;
+}
+.btn:active{
+  transform: translateY(4px);
+  
+}
+.back{
+  overflow: hidden;
+  padding-left:35px;
+  padding-top:40px;
+  width:245px;
+  height:360px;
+  background:black;
+  border-radius:30px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  position:absolute; top:50%; left:50%; transform : translate(-50%, -50%);
+    
+}
+.logo{
+  color:white;
+    text-align:left;
+  margin-top:-20px;
+  margin-bottom:10px;
+  font-size:12px;
+}
+.logonot{
+  color:white;
+    text-align:right;
+  margin-top:-20px;
+  margin-bottom:18px;
+  font-size:11px;
+}
+.history{
+  font-size:11px;
+}
+#input,#story{
+  min-height:20px;
+  max-height:20px;
+  letter-spacing:4px;
+}
+.on{
+background-color:black;
+  outline:1px solid white;
+  box-sizing:border-box;
+}
+.res{
+  text-align:center;
+  
+  padding-left:87px;
+}
